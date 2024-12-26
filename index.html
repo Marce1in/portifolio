@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portifólio</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="fixed z-10">
+      <label class="swap swap-rotate">
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" class="theme-controller" value="dark" />
+
+        <!-- sun icon -->
+        <svg
+          class="swap-off h-10 w-10 fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+        </svg>
+
+        <!-- moon icon -->
+        <svg
+          class="swap-on h-10 w-10 fill-current"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+        </svg>
+      </label>
+    </div>
+
+    <header id="home">
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+          <img
+            src="./imgs/perfil.jpeg"
+            class="w-48 rounded-lg shadow-2xl" />
+
+          <article class="border rounded-lg border-neutral px-5 py-20">
+            <h1 class="sm:text-3xl text-2xl font-bold text-left">
+              Marcelo Oscaberry
+            </h1>
+            <small class="text-xs sm:text-left text-center">
+              Desenvolvedor Web
+            </small>
+            <p class="py-6">
+              Um programador extremamente versátil que ama cada coisinha que cria
+            </p>
+          </article>
+
+          <nav>
+            <ul class="text-right lg:border-r lg:border-r-neutral lg:border-r-1 border-0 border-t-neutral border-t-1 pr-2 flex lg:flex-col flex-row lg:gap-2 gap-5 wrap lg:self-auto self-end">
+              <li class="font-bold underline underline-offset-8">
+                <a href="#home">Home</a>
+              </li>
+              <li class="hover:underline underline-offset-8">
+                <a href="#tecnologias">Tecnologias</a>
+              </li>
+              <li class="hover:underline underline-offset-8">
+                <a href="#projetos">Projetos</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+    </header>
+
+    <section id="tecnologias">
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+
+          <div class="mockup-code">
+            <pre data-prefix="$"><code>ls ~/tecnologias</code></pre>
+            <pre data-prefix=" " class="text-gray-500"><code>C</code></pre>
+            <pre data-prefix=" " class="text-yellow-500"><code>Zig</code></pre>
+            <pre data-prefix=" " class="text-green-500"><code>Python</code></pre>
+            <pre data-prefix=" " class="text-orange-500"><code>Html</code></pre>
+            <pre data-prefix=" " class="text-sky-500"><code>CSS</code></pre>
+            <pre data-prefix=" " class="text-cyan-500"><code>TailwindCSS</code></pre>
+            <pre data-prefix=" " class="text-indigo-500"><code>Docker</code></pre>
+            <pre data-prefix=" " class="text-blue-300"><code>Flask</code></pre>
+            <pre data-prefix=" " class="text-success"><code>Django</code></pre>
+            <pre data-prefix=" " class="text-yellow-300"><code>Javascript</code></pre>
+            <pre data-prefix=" " class="text-sky-300"><code>Typescript</code></pre>
+            <pre data-prefix=" " class="text-cyan-500"><code>MySQL</code></pre>
+            <pre data-prefix=" " class="text-blue-500"><code>React</code></pre>
+          </div>
+
+          <nav>
+            <ul class="text-right lg:border-r lg:border-r-neutral lg:border-r-1 border-0 border-t-neutral border-t-1 pr-2 flex lg:flex-col flex-row lg:gap-2 gap-5 wrap lg:self-auto self-end">
+              <li class="hover:underline underline-offset-8">
+                <a href="#home">Home</a>
+              </li>
+              <li class="font-bold underline underline-offset-8">
+                <a href="#tecnologias">Tecnologias</a>
+              </li>
+              <li class="hover:underline underline-offset-8">
+                <a href="#projetos">Projetos</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projetos">
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row">
+
+          <div class="flex flex-wrap gap-2 justify-center">
+
+            <a href="https://sajic-2024.vercel.app/">
+              <div class="card bg-base-100 sm:w-96 max-[420px]:w-80 shadow-xl">
+                <figure class="bg-black">
+                  <img
+                    src="https://sajic-2024.vercel.app/sajic_vazado.webp"
+                    class="h-56 object-scale-down"
+                    alt="Sajic" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Site da Sajic
+                    <div class="badge badge-secondary">Em grupo</div>
+                  </h2>
+                  <p>A página oficial da Sajic 2024, evento da universidade Senac</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-info">Tailwind</div>
+                    <div class="badge badge-info">React</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/Marce1in/task-manager">
+              <div class="card bg-base-100 w-96 shadow-xl sm:w-96 max-[420px]:w-80">
+                <figure>
+                  <img
+                    class="h-56 object-cover"
+                    src="./imgs/task_manager.png"
+                    alt="task manager" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Taks Manager
+                  </h2>
+                  <p>Site com o objetivo de auxiliar a organização das suas tarefas</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-success">Flask</div>
+                    <div class="badge badge-info">Docker</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/marce1in/bmount">
+              <div class="card bg-base-100 w-96 shadow-xl sm:w-96 max-[420px]:w-80">
+                <figure>
+                  <img
+                    class="h-56 object-cover"
+                    src="./imgs/bmount.png"
+                    alt="bmount" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    bmount
+                  </h2>
+                  <p>Software CLI com o objetivo de facilitar na montagem de drivers no linux e facilitar na vizualização</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-ghost">c</div>
+                    <div class="badge badge-warning">linux</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://marce1in.github.io/Moeda-Em-Real/">
+              <div class="card bg-base-100 w-96 shadow-xl sm:w-96 max-[420px]:w-80">
+                <figure>
+                  <img
+                    class="h-56 object-cover"
+                    src="./imgs/real.png"
+                    alt="Moeda em Real" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Moeda em Real
+                  </h2>
+                  <p>Um site simples que consume uma API para mostrar o valor do Real em determinada moeda</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-warning">HTML</div>
+                    <div class="badge badge-warning">Javascript</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <nav>
+            <ul class="text-right lg:border-r lg:border-r-neutral lg:border-r-1 border-0 border-t-neutral border-t-1 pr-2 flex lg:flex-col flex-row lg:gap-2 gap-5 wrap lg:self-auto self-end">
+              <li class="hover:underline underline-offset-8">
+                <a href="#home">Home</a>
+              </li>
+              <li class="hover:underline underline-offset-8">
+                <a href="#tecnologias">Tecnologias</a>
+              </li>
+              <li class="font-bold underline underline-offset-8">
+                <a href="#projetos">Projetos</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+</html>
